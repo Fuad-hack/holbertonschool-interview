@@ -1,9 +1,6 @@
 #!/usr/bin/python3
 """0-lockboxes.py"""
-
-
 def canUnlockAll(boxes):
-    """Determines if all boxes can be unlocked."""
     if not boxes:
         return False
     n = len(boxes)
